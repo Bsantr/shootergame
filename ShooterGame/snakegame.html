@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>snakegame</title>
+  </head>
+  <body>
+    <button onclick="start_loop()">starten</button> 
+    <span id="x"></span> X <span id="y"></span> Y 
+    <div id="game_object" style="position: relative">
+    <canvas width="800px" height="600px" id="background_canvas" style="background: gray; position: absolute; top: 0px; left: 0px;"></canvas>    <!-- Für notizen-->
+    <canvas width="800px" height="600px" id="main_canvas" style="position: absolute; top: 0px; left: 0px;" onmousemove='mouse("move", event)' onclick='mouse("click", event)'> Leider kann diese Browser das Spiel nicht anzeige!</canvas>  
+  </div>
+    <script src="javaScript.js"></script>
+  </body>
+</html>
+<!--Video 13-->  
